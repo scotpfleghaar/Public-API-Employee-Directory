@@ -1,0 +1,47 @@
+* {
+    font-family: 'Asap Condensed', sans-serif;
+    color: #7b8b8e;
+}
+
+h2 {
+    color: #7b8b8e;
+    margin: 3%;
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: 2%;
+}
+
+.employee {
+    border: 1.5px solid #7b8b8e;
+    border-radius: 6px;
+    width: 27%;
+    height: 100%;
+    padding: 2%;
+    margin: 1%;
+    display: inline-flex;
+}
+
+.employee img {
+    border: solid grey 1px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.profileImage {
+    width: 31%;
+}
+
+.profileInformation {
+    width: 50%;
+    font-size: 1vw;
+    margin-left: 10%;
+}
+
+.profileInformation h3 {
+    color: black;
+}
