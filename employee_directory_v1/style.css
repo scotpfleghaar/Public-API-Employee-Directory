@@ -23,6 +23,15 @@ h2 {
     padding: 2%;
     margin: 1%;
     display: inline-flex;
+    -webkit-box-shadow: 0px 10px 16px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 16px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 16px -13px rgba(0, 0, 0, 0.75);
+}
+
+.employee:hover {
+    -webkit-box-shadow: 0px 15px 46px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 15px 46px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 15px 46px -12px rgba(0, 0, 0, 0.75);
 }
 
 .employee img {
@@ -40,8 +49,99 @@ h2 {
     width: 50%;
     font-size: 1vw;
     margin-left: 10%;
+    text-transform: uppercase;
 }
 
 .profileInformation h3 {
     color: black;
+    text-transform: uppercase;
+}
+
+.invisiable {
+    display: none;
+}
+
+.email {
+    text-transform: lowercase;
+}
+
+.spanProfile {
+    margin: 3%;
+    //display: inline;
+    //align-content: center;
+    text-transform: uppercase;
+}
+
+.spanImage {
+    margin: auto;
+    width: 400px;
+    padding: 1%;
+    height: 200px;
+}
+
+.spanImage img {
+    margin: auto;
+    border: solid grey 1px;
+    border-radius: 50%;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.spanInformation {
+    text-align: center;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
